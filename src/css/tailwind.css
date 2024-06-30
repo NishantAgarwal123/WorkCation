@@ -9,9 +9,14 @@
         @apply px-4 py-2 max-w-fit rounded-lg shadow-lg uppercase tracking-widest text-sm font-semibold   hover:-translate-y-0.5 transform transition;
     }
     .btn-primary{
-        @apply bg-indigo-500 text-white hover:bg-indigo-400 active:bg-indigo-600;
+        @apply  text-white bg-brand hover:bg-brand-light active:bg-brand-dark;
     }
     .btn-secondary{
         @apply bg-gray-300 text-gray-800 hover:bg-gray-200 active:bg-gray-400;
     }
 }
+/* 
+bg-indigo-400
+bg-indigo-600
+bg-indigo-500
+*/
