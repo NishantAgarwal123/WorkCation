@@ -19,8 +19,8 @@ function App() {
             <span className=" text-brand">Take Advantage of it</span>
           </h2>
           <p className="mt-2 text-gray-800 sm:mt-4 sm:text-xl">
-            workstation finds you work rentals in beutifull locations so you can
-            enjoy some nice weateher even when youre not on cacation
+            workstation finds you work rentals in beautifull locations so you can
+            enjoy some nice weather even when you're not on vacation
           </p>
           <div className="mt-4 flex gap-4 sm:mt-6">
             <button className="btn btn-primary">Book your escape</button>
