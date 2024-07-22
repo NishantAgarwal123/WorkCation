@@ -1,9 +1,12 @@
 {
+  "homepage": "http://NishantAgarwal123.github.io/WorkCation",
   "name": "tailwind-labs",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build"
   },
   "keywords": [],
@@ -17,6 +20,7 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.1",
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "vite": "^5.3.1"
